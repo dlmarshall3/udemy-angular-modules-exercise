@@ -1,0 +1,4 @@
+div.ui.icon.header:empty {
+    /* If div is empty, do not dislpay the div and create extra padding */
+    display: none;
+}

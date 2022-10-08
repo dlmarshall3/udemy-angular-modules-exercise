@@ -3,15 +3,23 @@ import { CommonModule } from '@angular/common';
 
 import { ElementsRoutingModule } from './elements-routing.module';
 import { ElementshomeComponent } from './elementshome/elementshome.component';
+import { PlaceholderComponent } from './placeholder/placeholder.component';
+import { TimesDirective } from './times.directive';
+import { SharedModule } from '../shared/shared.module';
+import { SegmentComponent } from './segment/segment.component';
 
 
 @NgModule({
   declarations: [
-    ElementshomeComponent
+    ElementshomeComponent,
+    PlaceholderComponent,
+    TimesDirective,
+    SegmentComponent
   ],
   imports: [
     CommonModule,
-    ElementsRoutingModule
+    ElementsRoutingModule,
+    SharedModule
   ]
 })
 export class ElementsModule { }

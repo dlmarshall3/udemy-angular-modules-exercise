@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./elementshome.component.css']
 })
 export class ElementshomeComponent implements OnInit {
+  title: string = 'Placeholder';
 
   constructor() { }
 
