@@ -22,5 +22,4 @@ export class AccordionComponent implements OnInit {
       this.openedItemIndex = index;
     }
   }
-
 }
